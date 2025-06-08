@@ -83,13 +83,13 @@ def fetch_and_send_latest(source):
             )
 
             if tandem_response.status_code == 200:
-                print(f"✅ Sent latest {source} data at {local_time}")
+                print(f"Sent latest {source} data at {local_time}")
             else:
-                print(f"❌ Failed to send {source} data: {tandem_response.status_code}")
+                print(f"Failed to send {source} data: {tandem_response.status_code}")
         else:
-            print(f"ℹ️ No data for {source}")
+            print(f"ℹNo data for {source}")
     except Exception as e:
-        print(f"❌ Exception with {source}: {e}")
+        print(f"Exception with {source}: {e}")
 
 # ------------------------------ MAIN LOOP ------------------------------
 
