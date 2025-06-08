@@ -6,8 +6,8 @@ from datetime import datetime
 
 # ------------------------------ CONFIGURATION ------------------------------
 
-username = "cjesto"
-password = "Chajane12"
+username = "<confidential>"
+password = "<confidential>"
 
 sources = [
     "AQ_1", "AQ_2", "AQ_3", "AQ_4",
