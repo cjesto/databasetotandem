@@ -1,11 +1,11 @@
-import requests
+limport requests
 import json
 import base64
 
 # ------------------------------ CONFIGURATIONS ------------------------------
 
-username = "cjesto"
-password = "Chajane12"
+username = "<confidential>"
+password = "<confidential>"
 url = "https://api-staging.upcare.ph/api/data/care_2425_pgh?organization=care_2425_pgh&local_time_start=2025-05-20T07:00:00&local_time_end=2025-05-20T15:59:59"
 
 # Autodesk Tandem nodes
