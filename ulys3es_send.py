@@ -74,9 +74,9 @@ def fetch_and_send_to_tandem():
                 tandem_response = requests.post(tandem_url, headers=TANDEM_HEADERS, data=json.dumps(tandem_data))
 
                 if tandem_response.status_code == 200:
-                    print(f"✅ Data sent to {source} at {local_time}")
+                    print(f"Data sent to {source} at {local_time}")
                 else:
-                    print(f"❌ Failed to send data to {source}: {tandem_response.status_code}")
+                    print(f"Failed to send data to {source}: {tandem_response.status_code}")
         else:
             print("No data found in CARE HIVE.")
     else:
